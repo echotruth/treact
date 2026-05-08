@@ -30,13 +30,8 @@ body {
 }
 
 .container {
-  padding: 96px 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
+  padding: 96px 0
 }
-
 a {
   display: inline;
   text-decoration: none;
@@ -239,7 +234,8 @@ nav {
 }
 
 .btn__menu--svg:hover {
-  fill: #7c3aed;
+  filter: invert(26%) sepia(94%) saturate(7476%) hue-rotate(261deg)
+    brightness(94%) contrast(115%);
 }
 
 .btn__menu--close {
