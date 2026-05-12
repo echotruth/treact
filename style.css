@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Inter", system-ui;
+  font-family: "Inter", sans-serif;
   color: #243e63;
 }
 
@@ -389,7 +389,7 @@ header .row {
 }
 
 .header__email--input:hover {
-  border-color: rgba(160, 174, 192, 1);
+  border-color: rgba(160, 174, 192);
 }
 
 .header__email--input:focus,
@@ -614,9 +614,10 @@ STEPS ↓
 
 .step__number {
   color: #cbd5e0;
-  font-size: 36px;
+  font-size: 32px;
   font-weight: 600;
   line-height: 1;
+ 
 }
 
 .steps__description {
