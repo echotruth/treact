@@ -1165,7 +1165,7 @@ START / CALL TO ACTION ↓
   z-index: 2;
 }
 
-.start__button.plan:nth-child(1) {
+.start__button:nth-child(1) {
   background: #f56565;
   box-shadow:
     0 10px 15px -3px rgba(0, 0, 0, 0.1),
