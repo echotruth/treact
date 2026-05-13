@@ -603,7 +603,7 @@ STEPS ↓
 
 .steps__description {
   padding: 32px 0;
-  padding-left: 64px;
+ 
 }
 
 .step {
@@ -623,8 +623,7 @@ STEPS ↓
 .steps__description {
   display: flex;
   flex-direction: column;
-  margin-left: 24px;
-  max-width: 320px;
+ 
 }
 
 .step__title {
@@ -944,15 +943,18 @@ PRICING ↓
 }
 
 .plans_blob {
-  z-index: -10;
   position: absolute;
-  left: 0;
-  bottom: 0;
-  transform: translateX(-50%) translateY(50%) scaleX(1) scaleY(1);
-  height: 256px;
-  width: 256px;
-  opacity: 0.25;
+ display: flex;
+ bottom: 0;
+ left: 0;
+ width: 200px;
+ height: 200px;
+ transform: translate(-50%, 50%);
+ z-index: -10;
 }
+
+
+
 
 .plans {
   display: flex;
